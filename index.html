@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru" class="html html_box">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slick/slick.css"/>
+	<link rel="stylesheet" href="slick/slick-theme.css"/>
+	<script src="jquery-3.4.1.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<title>Дипломный проект</title>
+</head>
+<body class="body body_box">
+	<div class="popup popup__overlay popup__overlay_style"></div>
+	<div class="popup popup__window popup__window_position">
+		<input class="popup__close popup__close_position" type="button" value="&times;"/>
+		<h3 class="popup__header popup__header_position"></h3>
+		<form class="popup__form" method="post" action="">
+			<label class="popup__label popup__label_position" for="popup__id-name">Введите ваше имя:</label>
+			<input class="popup__input popup__input_style" id="popup__id-name" type="text" name="name" placeholder="Имя *"/>
+			<label class="popup__label popup__label_position" for="popup__id-phone">Введите контактный номер телефона:</label>
+			<input class="popup__input popup__input_style" id="popup__id-phone" type="tel" name="phone" placeholder="Телефон *" maxlength="11"/>
+			<label class="popup__label popup__email popup__label_position" for="popup__email">Введите адрес электронной почты:</label>
+			<input class="popup__input popup__email popup__input_style" id="popup__email" type="email" name="email" placeholder="Email *" maxlength="11"/>
+			<input class="popup__input popup__input_button-position button_style-orange" type="submit" value="Отправить"/>
+		</form>
+	</div>
+	<header class="header header_bg">
+		<div class="fixed-container fixed-container_size">
+			<div class="flex-container header__flex-container_padding">
+				<i class="icofont-navigation-menu image_bg-gradient icofont-navigation-menu_size"></i>
+				<nav class="flex-container nav-menu header__flex-container_width-280">
+					<a class="list-link__link header__list-link_style" href="#services">Услуги</a>
+					<a class="list-link__link header__list-link_style" href="#portfolio">Портфолио</a>
+					<a class="list-link__link header__list-link_style" href="#cost">Стоимость</a>
+				</nav>
+				<a class="contact contact_color header__contact_font-size" href="tel:+7(499)9955555">+7 (499) 995-55-55</a>
+				<i class="button button__call icofont-phone-circle icofont-phone-circle_position image_bg-gradient"></i>
+				<div class="flex-container header__flex-container_width-455">
+					<a class="contact contact_color header__contact_padding" href="tel:+7(499)9955555">+7 (499) 995-55-55</a>
+					<button class="button button__call button_style-transparent header__button_width">Заказать звонок</button>
+				</div>
+			</div>
+			<img class="image header__image_position" src="img/Man.png" alt="Молодой человек">
+			<svg class="image-vector image-vector_position"
+				 xmlns="http://www.w3.org/2000/svg"
+				 xmlns:xlink="http://www.w3.org/1999/xlink"
+				 width="920px" height="764px" viewBox="0 0 920 764">
+				<defs>
+				<linearGradient id="PSgrad_0" x1="0%" x2="22.495%" y1="97.437%" y2="0%">
+				  <stop offset="0%" stop-color="rgb(255,143,90)" stop-opacity="1" />
+				  <stop offset="99%" stop-color="rgb(255,47,150)" stop-opacity="1" />
+				</linearGradient>
+				</defs>
+				<path fill-rule="evenodd"  fill="rgb(96, 85, 196)"
+				 d="M395.520,40.407 C502.261,-10.049 602.994,-10.204 687.212,27.671 C771.647,65.238 839.568,140.836 885.703,234.785 C929.973,329.669 929.926,431.584 893.771,514.027 C857.115,597.700 796.105,660.782 712.966,705.804 C668.936,728.473 622.654,744.002 563.818,753.535 C505.757,762.929 435.142,766.325 360.325,761.479 C211.851,752.158 45.449,708.398 10.358,609.690 C-9.529,560.677 2.954,504.492 27.679,447.950 C52.809,391.326 90.181,334.346 129.419,281.835 C169.063,229.242 210.573,181.118 253.309,140.306 C296.450,99.410 340.817,65.827 395.520,40.407 L395.520,40.407 Z"/>
+				<path fill="url(#PSgrad_0)"
+				 d="M395.520,40.407 C502.261,-10.049 602.994,-10.204 687.212,27.671 C771.647,65.238 839.568,140.836 885.703,234.785 C929.973,329.669 929.926,431.584 893.771,514.027 C857.115,597.700 796.105,660.782 712.966,705.804 C668.936,728.473 622.654,744.002 563.818,753.535 C505.757,762.929 435.142,766.325 360.325,761.479 C211.851,752.158 45.449,708.398 10.358,609.690 C-9.529,560.677 2.954,504.492 27.679,447.950 C52.809,391.326 90.181,334.346 129.419,281.835 C169.063,229.242 210.573,181.118 253.309,140.306 C296.450,99.410 340.817,65.827 395.520,40.407 L395.520,40.407 Z"/>
+			</svg>
+			<div class="header__content header__content_position">
+				<div class="header__name header__name_font-size">Дмитрий Алексеев</div>
+				<div class="header__profession header__profession_font-size">Frontend-разработчик и веб-верстальщик</div>
+				<button class="button button__request button_style-orange header__button_top">Узнать больше</button>
+			</div>
+			<div class="move-element header-move-element_position">
+				<div class="move-element__one-div move-element_gradient"><span><</span><span>div</span><span>></span></div>
+				<div class="move-element__braces move-element_gradient"><span>{ }</span></div>
+				<div class="move-element__hash move-element_gradient"><span>#</span></div>
+				<div class="move-element__slash move-element_gradient"><span><</span><span>/</span><span>></span></div>
+				<div class="move-element__two-slash move-element_gradient"><span><</span><span>/</span><span>></span></div>
+				<div class="move-element__two-div move-element_gradient"><span><</span><span>div</span><span>></span></div>
+			</div>
+		</div>
+	</header>
+	<section class="fixed-container fixed-container_size section section_height">
+		<a id="services"></a>
+		<div class="head-text head-text_position">Что я делаю</div>
+		<div class="flex-container section__fixed-container_position">
+			<div class="box">
+				<i class="icofont-interface icofont_size image_bg-gradient"></i>
+				<div class="text text_style">Вёрстка лендинг-страниц и сайтов любой сложности</div>
+			</div>
+			<div class="box">
+				<i class="icofont-responsive icofont_size image_bg-gradient"></i>
+				<div class="text text_style">Адаптивная верстка под все барузеры и устройства</div>
+			</div>
+			<div class="box">
+				<i class="icofont-code icofont_size image_bg-gradient"></i>
+				<div class="text text_style">Frontend-разработка и&nbsp;программирование</div>
+			</div>
+			<div class="box">
+				<i class="icofont-binary icofont_size image_bg-gradient"></i>
+				<div class="text text_style">Исправление и доработка существующей вёрстки</div>
+			</div>
+		</div>
+		<button class="button button__request button_style-orange section__button_top-320">Узнать стоимость</button>
+	</section>
+	<section class="section section_heihgt-bg">
+		<a id="portfolio"></a>
+		<div class="fixed-container fixed-container_size">
+			<div class="head-text head-text_position">Примеры моих работ</div>
+			<div class="section__box section__box_position slider">
+				<div class="box box__psyholog">
+					<a href="#" class="link link_decoration">
+						<img class="image image_size" alt="изображение сайта психолога" src="img/psyholog.png">
+						<div class="text text_style section__text_position">Сайт психолога Веры Антоновой</div>	
+					</a>
+				</div>
+				<div class="box box__children-clothes">
+					<a href="#" class="link link_decoration">
+						<img class="image image_size" alt="изображение сайта детской одежды" src="img/children-clothes.png">
+						<div class="text text_style section__text_position">Сайт магазина детской одежды</div>	
+					</a>
+				</div>
+				<div class="box box__fisherman">
+					<a href="#" class="link link_decoration">
+						<img class="image image_size" alt="изображение сайта рыбалова" src="img/fisherman.png">
+						<div class="text text_style section__text_position">Сайт магазина &laquo;Рыболов&raquo;</div>	
+					</a>
+				</div>
+				<div class="box box__news">
+					<a href="#" class="link link_decoration">
+						<img class="image image_size" alt="изображение сайта новостей" src="img/news.png">
+						<div class="text text_style section__text_position">Сайт новостей</div>	
+					</a>
+				</div>
+			</div>
+			<button class="button button__request button_style-orange section__button_top-300">Заказать проект</button>
+		</div>
+	</section>
+	<section class="section section_gradient">
+		<div class="fixed-container fixed-container_size">
+			<a id="cost"></a>
+			<div class="fixed-box fixed-box_size">
+				<p class="text section-text_color section-text_large">Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего за&nbsp;4&nbsp;часа.*</p>
+				<p class="text section-text_color section-text_small">* Срок и стоимость могут отличаться от&nbsp;заявленных и рассчитываются индивидульно, в&nbsp;зависимости от&nbsp;сложности задач.</p>
+			</div>
+			<div class="move-element section-move-element_position">
+				<div class="text section-text_color section-text_font move-element__one-div_position"><span><</span><span>div</span><span>></span></div>
+				<div class="text section-text_color section-text_font move-element__braces_position"><span>{ }</span></div>
+				<div class="text section-text_color section-text_font move-element__hash_position"><span>#</span></div>
+				<div class="text section-text_color section-text_font move-element__slash_position"><span><</span><span>/</span><span>></span></div>
+				<div class="text section-text_color section-text_font move-element__braces-two_position"><span>{ }</span></div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer footer_bg">
+		<div class="fixed-container fixed-container_size footer__container">
+			<nav class="flex-container footer__flex-container_style">
+				<a class="list-link__link footer__list-link_style" href="#services">Услуги</a>
+				<a class="list-link__link footer__list-link_style" href="#portfolio">Портфолио</a>
+				<a class="list-link__link footer__list-link_style" href="#cost">Стоимость</a>
+			</nav>
+			<div class="flex-container footer__flex-container_size">
+				<a class="contact contact_color footer__contact_font-size" href="tel:+7(499)9955555"><i class="icofont-phone image_bg-gradient"></i> +7 (499) 995-55-55</a>
+				<a class="contact contact_color footer__contact_font-size" href="mailto:dmitry@alekseev.com"><i class="icofont-envelope image_bg-gradient"></i> dmitry@alekseev.com</a>
+			</div>
+			<address class="flex-container footer__address-link_size">
+				<button class="button button__call button_style-transparent footer__button_width">Заказать звонок</button>
+				<a class="footer__ico footer__ico_position-vk" href="https://vk.com/skillbox_education" target="_blank"></a>
+				<a class="footer__ico footer__ico_position-fc" href="https://www.facebook.com/skillboxru/" target="_blank"></a>
+				<a class="footer__ico footer__ico_position-tw" href="https://twitter.com/search?q=skillbox&src=typed_query" target="_blank"></a>
+				<a class="footer__ico footer__ico_position-inst" href="https://www.instagram.com/skillbox.ru/" target="_blank"></a>
+			</address>
+		</div>
+		<div class="footer__copyright footer__copyright_height">
+				<small class="footer__copyright footer__copyright_font fixed-container">&copy; Дмитрий Алексеев, 2016 - 2018</small>
+		</div>
+	</footer>
+	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+</body>
+</html>
