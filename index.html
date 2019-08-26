@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="slick/slick-theme.css"/>
 	<script src="jquery-3.4.1.min.js"></script>
 	<script src="script.js"></script>
+	<script src="modernizr-custom.js"></script>
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -20,8 +21,8 @@
 	<div class="popup popup__overlay popup__overlay_style"></div>
 	<div class="popup popup__window popup__window_position">
 		<input class="popup__close popup__close_position" type="button" value="&times;"/>
-		<h3 class="popup__header popup__header_position"></h3>
-		<form class="popup__form" method="post" action="">
+		<h3 class="popup__header popup__header_position">Заказать звонок</h3>
+		<form class="popup__form" method="post" action="#">
 			<label class="popup__label popup__label_position" for="popup__id-name">Введите ваше имя:</label>
 			<input class="popup__input popup__input_style" id="popup__id-name" type="text" name="name" placeholder="Имя *"/>
 			<label class="popup__label popup__label_position" for="popup__id-phone">Введите контактный номер телефона:</label>
@@ -69,18 +70,18 @@
 				<button class="button button__request button_style-orange header__button_top">Узнать больше</button>
 			</div>
 			<div class="move-element header-move-element_position">
-				<div class="move-element__one-div move-element_gradient"><span><</span><span>div</span><span>></span></div>
-				<div class="move-element__braces move-element_gradient"><span>{ }</span></div>
-				<div class="move-element__hash move-element_gradient"><span>#</span></div>
-				<div class="move-element__slash move-element_gradient"><span><</span><span>/</span><span>></span></div>
-				<div class="move-element__two-slash move-element_gradient"><span><</span><span>/</span><span>></span></div>
-				<div class="move-element__two-div move-element_gradient"><span><</span><span>div</span><span>></span></div>
+				<div class="move-element__one-div move-element_gradient">&lt;div&gt;</div>
+				<div class="move-element__braces move-element_gradient">{ }</div>
+				<div class="move-element__hash move-element_gradient">#</div>
+				<div class="move-element__slash move-element_gradient">&lt;/&gt;</div>
+				<div class="move-element__two-slash move-element_gradient">&lt;/&gt;</div>
+				<div class="move-element__two-div move-element_gradient">&lt;div&gt;</div>
 			</div>
 		</div>
 	</header>
 	<section class="fixed-container fixed-container_size section section_height">
 		<a id="services"></a>
-		<div class="head-text head-text_position">Что я делаю</div>
+		<h1 class="head-text head-text_position">Что я делаю</h1>
 		<div class="flex-container section__fixed-container_position">
 			<div class="box">
 				<i class="icofont-interface icofont_size image_bg-gradient"></i>
@@ -104,7 +105,7 @@
 	<section class="section section_heihgt-bg">
 		<a id="portfolio"></a>
 		<div class="fixed-container fixed-container_size">
-			<div class="head-text head-text_position">Примеры моих работ</div>
+			<h1 class="head-text head-text_position">Примеры моих работ</h1>
 			<div class="section__box section__box_position slider">
 				<div class="box box__psyholog">
 					<a href="#" class="link link_decoration">
@@ -138,15 +139,15 @@
 		<div class="fixed-container fixed-container_size">
 			<a id="cost"></a>
 			<div class="fixed-box fixed-box_size">
-				<p class="text section-text_color section-text_large">Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего за&nbsp;4&nbsp;часа.*</p>
+				<h1 class="text section-text_color section-text_large">Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего за&nbsp;4&nbsp;часа.*</h1>
 				<p class="text section-text_color section-text_small">* Срок и стоимость могут отличаться от&nbsp;заявленных и рассчитываются индивидульно, в&nbsp;зависимости от&nbsp;сложности задач.</p>
 			</div>
 			<div class="move-element section-move-element_position">
-				<div class="text section-text_color section-text_font move-element__one-div_position"><span><</span><span>div</span><span>></span></div>
-				<div class="text section-text_color section-text_font move-element__braces_position"><span>{ }</span></div>
-				<div class="text section-text_color section-text_font move-element__hash_position"><span>#</span></div>
-				<div class="text section-text_color section-text_font move-element__slash_position"><span><</span><span>/</span><span>></span></div>
-				<div class="text section-text_color section-text_font move-element__braces-two_position"><span>{ }</span></div>
+				<div class="text section-text_color section-text_font move-element__one-div_position">&lt;div&gt;</div>
+				<div class="text section-text_color section-text_font move-element__braces_position">{ }</div>
+				<div class="text section-text_color section-text_font move-element__hash_position">#</div>
+				<div class="text section-text_color section-text_font move-element__slash_position">&lt;/&gt;</div>
+				<div class="text section-text_color section-text_font move-element__braces-two_position">{ }</div>
 			</div>
 		</div>
 	</section>
@@ -175,6 +176,6 @@
 	</footer>
 	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
-	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script src="slick/slick.min.js"></script>
 </body>
 </html>
