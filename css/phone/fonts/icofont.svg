@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+<font id="icofont" horiz-adv-x="1000" >
+<font-face font-family="IcoFont" font-weight="400" font-style="Regular" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="phone-circle" horiz-adv-x="1000" unicode="&#xefba;" d="M426 450c-82-47 43-281 132-230l83-143c-38-22-70-36-113-11-122 70-256 301-252 439 1 48 30 67 67 88 16-27 67-116 83-143z m34 4c-9-5-20-2-25 6l-79 136c-5 9-2 20 7 25l41 24c9 5 21 2 26-7l78-135c5-9 2-21-7-26l-41-23z m214-370c-9-6-21-3-26 6l-78 136c-5 9-2 20 7 25l41 24c9 5 20 2 25-7l79-135c5-9 2-21-7-26l-41-23z m-174 704v-1c121 0 230-48 309-128 79-79 128-188 128-309h1-1c0-121-48-230-128-309-79-79-188-128-309-128v-1 1c-121 0-230 48-309 128-79 79-128 188-128 309h0 0c0 121 49 230 128 309 79 79 188 128 309 128v1z m0-53v0 0c-106 0-203-43-272-113-70-69-113-166-113-272h0 0c0-106 43-203 113-272 69-70 166-113 272-113v0 0c106 0 203 43 272 113 70 69 113 166 113 272h0 0c0 106-43 203-113 272-69 70-166 113-272 113z" />
+</font>
+</defs>
+</svg>

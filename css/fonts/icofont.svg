@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+<font id="icofont" horiz-adv-x="1000" >
+<font-face font-family="IcoFont" font-weight="400" font-style="Regular" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="envelope" horiz-adv-x="1000" unicode="&#xef14;" d="M493 268c-118 58-337 166-408 200-12 6-22-1-22-14v-396c0-14 11-25 25-25h824c14 0 25 11 25 24v396c0 14-10 20-22 14-70-34-287-141-403-199-7-3-12-3-19 0z m-314 230c105-52 210-103 315-154 4-2 11-3 15-1 140 69 281 139 422 208 5 2 7 5 7 11-1 21 0 57 0 81 0 14-11 25-25 25h-826c-13 0-24-11-24-25 0-24 0-61 0-82 0-3 4-8 7-10 36-18 72-35 109-53z" />
+<glyph glyph-name="phone" horiz-adv-x="1000" unicode="&#xefbb;" d="M391 497c-121-70 63-414 195-338l122-211c-56-32-103-53-167-16-179 102-376 443-370 646 2 71 43 99 98 130 23-40 98-171 122-211z m50 5c-13-7-30-3-37 10l-115 200c-8 13-3 29 10 37l60 35c13 7 30 3 38-10l115-199c7-13 3-30-10-38l-61-35z m315-544c-13-8-30-3-38 10l-115 199c-7 13-3 30 10 38l61 34c13 8 29 4 37-10l115-199c8-13 3-30-10-37l-60-35z" />
+</font>
+</defs>
+</svg>
