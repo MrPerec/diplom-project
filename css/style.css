@@ -140,10 +140,12 @@
   font-size: 35px;
   cursor: pointer;
 }
-.header__flex-container_padding{
-	padding: 50px 0;
-  width: -webkit-fill-available;
-	justify-content: space-between;
+.header__flex-container_padding {
+  padding: 50px 0;
+  width: 523px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 .header__flex-container_width-280{
 	width: 280px;
