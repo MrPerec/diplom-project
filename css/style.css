@@ -236,8 +236,6 @@
   background: linear-gradient(0deg, #ff8f5a, #ff2f96);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  width: 50px;
-  margin: 5px;
   cursor: default;
 }
 .no-cssgradients .move-element_gradient{color: #ff4e2e;}
@@ -297,6 +295,8 @@
     position: relative;
     animation: moveElementOneDiv 1s ease-out 0.3s;
     animation-fill-mode: forwards;
+    width: 50px;
+    margin: 5px;
 }
 @keyframes moveElementBraces{
     0% {
@@ -310,6 +310,8 @@
 	float: left;
     animation: moveElementBraces 1s ease-out 0.3s;
     animation-fill-mode: forwards;
+    width: 50px;
+    margin: 5px;
 }
 @keyframes moveElementHash{
     0% {
@@ -322,6 +324,8 @@
 .move-element__hash{
     animation: moveElementHash 1s ease-out 0.3s;
     animation-fill-mode: forwards;
+    width: 50px;
+    margin: 5px;
 }
 @keyframes moveElementSlash{
     0% {
@@ -335,6 +339,8 @@
 	float: left;
     animation: moveElementSlash 1s ease-out 0.3s;
     animation-fill-mode: forwards;
+    width: 50px;
+    margin: 5px;
 }
 @keyframes moveElementTwoDiv{
     0% {
@@ -350,8 +356,14 @@
   animation: moveElementTwoDiv 1s ease-out 0.3s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  width: 50px;
+  margin: 5px;
 }
-.move-element__two-slash{display: none;}
+.move-element__two-slash{
+  display: none;
+  width: 50px;
+  margin: 5px;
+}
 .header__image_position{
 	position: relative;
   left: 100px;
