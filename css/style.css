@@ -897,7 +897,7 @@ font-size: xx-large;
 .header-move-element_position {
   z-index: 0;
   font-size: 12px;
-  height: -webkit-fill-available;;
+  height: 0;
 }
 .icofont-navigation-menu_size{
   font-size: 25px;
